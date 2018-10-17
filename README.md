@@ -25,7 +25,7 @@ SOFTWARE REQUIREMENTS:
 
 INSTRUCTIONS FOR EXECUTION:
 
-1.	Navigate into the folder ‘code’ and open command prompt here. 
+1.	Navigate into the folder containing all these files and open command prompt here. 
 
 2.	Run the command ‘npm install’ to install all the necessary node modules.
 
