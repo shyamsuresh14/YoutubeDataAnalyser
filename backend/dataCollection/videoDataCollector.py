@@ -2,6 +2,7 @@
 
 import csvDataWriter
 import requests
+import creds
 
 videoViews = []
 videoLikes = []
@@ -14,7 +15,7 @@ publishDate = []
 def videoIdCollector(channelId, channelName):
     VideoIds = []
     baseKeyUrl = 'https://www.googleapis.com/youtube/v3/search?'
-    APIkey = 'AIzaSyAKkvtbJheEFYrRseZgyxUyBhy0KXm3wM0'
+    APIkey = creds.YOUTUBE_DATA_API
     details = 'id'
     print('Latest Video Ids: ')
     nextPageToken = ''

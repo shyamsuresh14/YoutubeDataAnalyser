@@ -3,13 +3,14 @@
 import channelIdCollector
 import videoDataCollector
 import requests
+import creds
 
 channelNames = []
 channelTotalViews = []
 channelSubscribers = []
 channelVideos = []
 
-APIkey = 'AIzaSyAKkvtbJheEFYrRseZgyxUyBhy0KXm3wM0'
+APIkey = creds.YOUTUBE_DATA_API
 baseChannelUrl = 'https://www.googleapis.com/youtube/v3/channels?'
 details = 'snippet,statistics'
 

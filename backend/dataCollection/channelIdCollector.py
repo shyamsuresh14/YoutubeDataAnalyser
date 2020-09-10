@@ -1,6 +1,7 @@
 #For each channel in the list of 20 channels, the channel IDs are collected and stored in a list
 
 import requests
+import creds
 
 '''channels = ['PewDiePie',
 'tseries',
@@ -27,7 +28,7 @@ channelIds = []
 
 baseChannelUrl = 'https://www.googleapis.com/youtube/v3/channels?'
 details = 'id'
-APIkey = 'AIzaSyAKkvtbJheEFYrRseZgyxUyBhy0KXm3wM0'
+APIkey = creds.YOUTUBE_DATA_API
 
 print('ChannelIds: ')
 
